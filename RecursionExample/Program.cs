@@ -1,4 +1,6 @@
-﻿namespace RecursionExample
+﻿using System;
+
+namespace RecursionExample
 {
     class Program
     {
@@ -14,6 +16,8 @@
 
             // Вывод дерева, сделано для удобства, можешь не смотреть это
             head.Show();
+
+            Console.ReadLine();
         }
 
         public static int RecursiceFunction(Item parent)
